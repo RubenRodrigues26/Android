@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Perfect Font</string>
+    <string name="country_prompt">Choose a font</string>
+    <string name="category_litesql">Swipe right to leave a comment -></string>
+    <string name="comment">Leave a comment!</string>
+    <string-array name="country_arrays">
+        <item>CHOOSE YOUR COLOR HERE (Black default)</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Magenta</item>
+        <item>Red</item>
+        <item>Gray</item>
+        <item>Cyan</item>
+        <item>Yellow</item>
+    </string-array>
+
+</resources>

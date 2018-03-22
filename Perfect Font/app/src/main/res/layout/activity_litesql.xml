@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/comment"
+            android:text="@string/comment"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="22dp"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="300dp"
+            android:id="@+id/user_Input"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="69dp"
+            android:layout_alignParentTop="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_Input"
+            android:layout_alignStart="@+id/user_Input"
+            android:layout_alignLeft="@+id/user_Input"
+            android:layout_marginTop="40dp"
+            android:id="@+id/add_Btnsql"
+            android:text="Add Comment"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/records_TextView"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

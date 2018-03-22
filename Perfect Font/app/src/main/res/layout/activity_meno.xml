@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Main Menu -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!--  Item 1 -->
+    <item
+        android:id="@+id/menu1"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="PARANOID" />
+    <!--  Item 2 -->
+    <item
+        android:id="@+id/menu2"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="DroidSerif-Regular">
+        <!--  Item 2 submenu 3 item -->
+        <menu>
+            <item
+                android:id="@+id/menu21"
+                android:title="DroidSerif-Italic" />
+            <item
+                android:id="@+id/menu22"
+                android:title="DroidSerif-Bold"/>
+            <item
+                android:id="@+id/menu23"
+                android:title="DroidSerif-BoldItalic"/>
+        </menu>
+    </item>
+    <!-- close Item 2 -->
+
+    <!--  Item 3 -->
+    <item
+        android:id="@+id/menu3"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Gesture Stroke"/>
+
+    <!--  Item 4 -->
+    <item
+        android:id="@+id/menu4"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Roboto-Regular">
+        <!--  Item 4 submenu 3 item -->
+        <menu>
+            <item
+                android:id="@+id/menu41"
+                android:title="Roboto-Italic" />
+            <item
+                android:id="@+id/menu42"
+                android:title="Roboto-Bold"/>
+            <item
+                android:id="@+id/menu43"
+                android:title="Roboto-BoldItalic"/>
+        </menu>
+    </item>
+    <!--  close Item 4 -->
+</menu>
