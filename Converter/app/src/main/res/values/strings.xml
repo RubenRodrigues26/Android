@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="category_ascii">ASCII (Alert)</string>
+    <string name="category_morsecode">Morse Code</string>
+    <string name="category_textspeak">Text Speak</string>
+    <string name="category_rphonetics">Radio Phonetics (Notification)</string>
+    <string name="category_litesql">LiteSQL (Database)</string>
+    <string name="category_passdata">Send data to activities here!</string>
+    <string name="category_passdataInput12">Enter a message for the Second Activity</string>
+    <string name="category_btnFirst">Send to Second Activity</string>
+    <string name="category_btnThird">Send to Third Activity</string>
+</resources>

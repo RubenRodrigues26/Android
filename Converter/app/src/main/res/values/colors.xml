@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#f99c4b</color>
+
+    <color name="colorPrimaryDark">#000000</color>
+
+    <color name="colorAccent">#2e2e22</color>
+
+    <color name="category_ascii">#cc54e7f7</color>
+
+    <color name="category_morsecode">#cc54e7f7</color>
+
+    <color name="category_rphonetics">#cc54e7f7</color>
+
+    <color name="category_textspeak">#cc54e7f7</color>
+
+    <color name="category_litesql">#cc54e7f7</color>
+
+    <color name="category_passdata">#ccffe8ae</color>
+</resources>

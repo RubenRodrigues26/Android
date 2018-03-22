@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context="com.example.ruben.converter.MainActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/ascii"
+        android:text="@string/category_ascii"
+        android:background="@color/category_ascii"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="18dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/rphonetics"
+        android:text="@string/category_rphonetics"
+        android:background="@color/category_ascii"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="18dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/morsecode"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/category_ascii"
+        android:text="@string/category_morsecode"
+        android:padding="18dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textspeak"
+        android:text="@string/category_textspeak"
+        android:background="@color/category_ascii"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="18dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/litesql"
+        android:text="@string/category_litesql"
+        android:background="@color/category_ascii"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="18dp"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/passdata"
+        android:text="@string/category_passdata"
+        android:background="@color/category_passdata"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="18dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/passdataInput12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idFirst"
+        android:layout_centerHorizontal="true"
+        android:text="@string/category_passdataInput12"
+        android:background="@color/category_passdata"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category_btnFirst"
+        android:id="@+id/btnFirst"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="90dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category_btnThird"
+        android:id="@+id/btnThird"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="95dp"/>
+    </TableLayout>
+</LinearLayout>
